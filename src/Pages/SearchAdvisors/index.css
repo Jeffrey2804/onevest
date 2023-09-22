@@ -1,0 +1,17 @@
+.items-center {
+    flex-wrap: wrap;
+    
+}
+
+.btn {
+    margin-left: 15px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    }
+
+.rounded-xl {
+    width: 225px;
+    height: 140px;
+}

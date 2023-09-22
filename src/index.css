@@ -1,0 +1,239 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+
+p {
+  margin-bottom: 0.5rem;
+}
+
+a:hover {
+  color: #535bf2;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #1a1a1a;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+
+button:hover {
+  border-color: #646cff;
+}
+
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+.hover-review {
+  transition: 0.3s ease-in-out;
+}
+
+.hover-review:hover {
+  background-color: #0080FF;
+  border-color: #0080FF;
+}
+
+.hover-review:hover p {
+  color: white;
+}
+
+.hover-review:hover svg {
+  color: white !important;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+
+  a:hover {
+    color: #747bff;
+  }
+
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+.my-3.bg-white.rounded-2xl.flex.items-center.gap-10.flex-col.review-slieder {
+  width: 650px !important;
+}
+
+
+.slick-slide {
+  width: 576px !important;
+  margin: 0 111px;
+}
+
+@media screen and (max-width:1000px) {
+  .community {
+    flex-wrap: wrap;
+    gap: 2.5rem !important;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.home-hero::before {
+  content: "";
+  width: 70%;
+  height: 100%;
+  background-image: url(/assets/images/bg-shape.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  left: 15%;
+  top: -80%;
+  z-index: -1;
+}
+
+.card-1::before {
+  content: "";
+  width: 30%;
+  height: 100%;
+  background-image: url(/assets/images/card-bg-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  left: 2%;
+  top: -40%;
+  z-index: 1;
+}
+
+.card-2::before {
+  content: "";
+  width: 30%;
+  height: 100%;
+  background-image: url(/assets/images/card-bg-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  right: 2%;
+  top: -10%;
+  z-index: 1;
+}
+
+
+.card-3::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  left: 15%;
+  top: -20%;
+  z-index: 1;
+}
+
+.works-icon-like::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  left: -2%;
+  top: -65%;
+  z-index: 1;
+}
+
+.card-4::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  left: 10%;
+  top: -70%;
+  z-index: 1;
+}
+
+.works-icon-group::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-2.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  right: -2%;
+  top: -40%;
+  z-index: 1;
+}
+
+.card-5::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-4.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  right: 18%;
+  top: -30%;
+  z-index: 1;
+}
+
+.card-6::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-6.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  right: 23%;
+  top: -80%;
+  z-index: 1;
+}
+
+.card-7::before {
+  content: "";
+  width: 4%;
+  height: 100%;
+  background-image: url(/assets/images/icon-7.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  position: absolute;
+  right: 2%;
+  top: -50%;
+  z-index: 1;
+}
