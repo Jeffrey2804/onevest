@@ -25,7 +25,7 @@ const customStyles = {
     marginRight: '-50%',
     transform: 'translate(-50%, -50%)',
     'border-radius': '30px',
-    'padding': '30px',
+    'padding': '20px',
     'border-color': 'rgb(180 210 255)'
   },
 };
